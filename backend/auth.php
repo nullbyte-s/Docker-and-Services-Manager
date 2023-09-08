@@ -1,8 +1,9 @@
 <?php
 session_start();
-if(!isset($_SESSION["svcdbauth"])){
-  $output = array('auth' => 'false');
-  echo json_encode($output);
-  exit();
-}
+
+$auth = isset($_COOKIE["login_svcdbauth"]) || isset($_SESSION["svcdbauth"]);
+
+$output = array('auth' => $auth ? 'true' : 'false');
+echo json_encode($output);
+exit();
 ?>

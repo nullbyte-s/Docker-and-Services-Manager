@@ -38,7 +38,10 @@ function preload(){
     document.getElementById("pctl").innerHTML='<i class="bi bi-play"></i>';
   }
   setTimeout(function(){ $(".preload-screen").fadeOut("slow"); }, 500);
-  checkShutdown();
+}
+
+function deleteCookie(name) {
+    document.cookie = name + "=; Max-Age=0; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; samesite=None; secure=true";
 }
 
 function logout(){
@@ -50,6 +53,7 @@ function logout(){
   }, function () {
     alert("Saída falhou!");
   });
+  deleteCookie("login_svcdbauth");
 }
 
 Chart.defaults.global.legend.display = false;
