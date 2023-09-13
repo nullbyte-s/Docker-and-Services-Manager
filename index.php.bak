@@ -128,7 +128,7 @@ body, .mdtoast{
 			<a style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')">Container1</a>&nbsp;
 			<a class="emoji" style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')"></a>
 		</div>
-        <div style="margin-left: auto;margin-right: auto;position:relative;text-align: center;" class="card-body">
+        <div class="card-body">
           <button type="button" id="test-link-button" onclick="testAndOpenLink('https://#/')" class="btn btn-outline-secondary mt-1"><i class="bi bi-door-open"></i>&nbsp;Acessar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('docker start container1')" class="btn btn-outline-success mt-1"><i class="bi bi-play-circle"></i>&nbsp;Rodar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('docker stop container1')" class="btn btn-outline-danger mt-1"><i class="bi bi-stop-circle"></i>&nbsp;Parar</button>&nbsp;
@@ -140,7 +140,7 @@ body, .mdtoast{
         <div class="card-header border-primary text-primary"><i class="bi bi-house"></i>&nbsp;
 			<a style="font-size: 16px;">Container2</a>&nbsp;
 		</div>
-        <div style="margin-left: auto;margin-right: auto;position:relative;text-align: center;" class="card-body">
+        <div class="card-body">
           <button type="button" id="test-link-button" onclick="window.open('https://#/')" class="btn btn-outline-secondary mt-1"><i class="bi bi-door-open"></i>&nbsp;Acessar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('docker start container2')" class="btn btn-outline-success mt-1"><i class="bi bi-play-circle"></i>&nbsp;Rodar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('docker stop container2')" class="btn btn-outline-danger mt-1"><i class="bi bi-stop-circle"></i>&nbsp;Parar</button>&nbsp;
@@ -153,7 +153,7 @@ body, .mdtoast{
 			<a style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')">Container3</a>&nbsp;
 			<a class="emoji" style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')"></a>
 		</div>
-        <div style="margin-left: auto;margin-right: auto;position:relative;text-align: center;" class="card-body">
+        <div class="card-body">
           <button type="button" id="test-link-button" onclick="testAndOpenLink('https://#/')" class="btn btn-outline-secondary mt-1"><i class="bi bi-door-open"></i>&nbsp;Acessar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('docker start container3')" class="btn btn-outline-success mt-1"><i class="bi bi-play-circle"></i>&nbsp;Rodar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('docker stop container3')" class="btn btn-outline-danger mt-1"><i class="bi bi-stop-circle"></i>&nbsp;Parar</button>&nbsp;
@@ -166,7 +166,7 @@ body, .mdtoast{
 			<a style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')">Container4</a>&nbsp;
 			<a class="emoji" style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')"></a>
 		</div>
-        <div style="margin-left: auto;margin-right: auto;position:relative;text-align: center;" class="card-body">
+        <div class="card-body">
           <button type="button" id="test-link-button" onclick="testAndOpenLink('https://#/')" class="btn btn-outline-secondary mt-1"><i class="bi bi-door-open"></i>&nbsp;Acessar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('docker start container4')" class="btn btn-outline-success mt-1"><i class="bi bi-play-circle"></i>&nbsp;Rodar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('docker stop container4')" class="btn btn-outline-danger mt-1"><i class="bi bi-stop-circle"></i>&nbsp;Parar</button>&nbsp;
@@ -179,7 +179,7 @@ body, .mdtoast{
 			<a style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')">Container5</a>&nbsp;
 			<a class="emoji" style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')"></a>
 		</div>
-        <div style="margin-left: auto;margin-right: auto;position:relative;text-align: center;" class="card-body">
+        <div class="card-body">
           <button type="button" id="test-link-button" onclick="testAndOpenLink('https://#/')" class="btn btn-outline-secondary mt-1"><i class="bi bi-door-open"></i>&nbsp;Acessar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('docker start container5')" class="btn btn-outline-success mt-1"><i class="bi bi-play-circle"></i>&nbsp;Rodar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('docker stop container5')" class="btn btn-outline-danger mt-1"><i class="bi bi-stop-circle"></i>&nbsp;Parar</button>&nbsp;
@@ -189,7 +189,7 @@ body, .mdtoast{
 	<div style="margin-top:5px; margin-bottom:10px;" class="col-sm-4 pt-1 pt-md-0">
       <div class="card shadow-sm">
         <div class="card-header border-primary text-primary"><i class="bi bi-reception-4"></i>&nbsp;Container6</div>
-        <div style="margin-left: auto;margin-right: auto;position:relative;text-align: center;" class="card-body">
+        <div class="card-body">
 		  <button type="button" id="test-link-button" onclick="testAndOpenLink('https://#/')" class="btn btn-outline-secondary mt-1"><i class="bi bi-door-open"></i>&nbsp;Acessar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('/bin/bash /home/user/scripts/Container6.sh')" class="btn btn-outline-success mt-1"><i class="bi bi-play-circle"></i>&nbsp;Renovar</button>&nbsp;
         </div>
@@ -211,7 +211,7 @@ body, .mdtoast{
 			<a style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')">Service1</a>&nbsp;
 			<a class="emoji" style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')"></a>
 		</div>
-        <div style="margin-left: auto;margin-right: auto;position:relative;text-align: center;" class="card-body">
+        <div class="card-body">
           <button type="button" id="test-link-button" onclick="testAndOpenLink('https://#/')" class="btn btn-outline-secondary mt-1"><i class="bi bi-door-open"></i>&nbsp;Acessar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl start service1')" class="btn btn-outline-success mt-1"><i class="bi bi-play-circle"></i>&nbsp;Rodar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl stop service1')" class="btn btn-outline-danger mt-1"><i class="bi bi-stop-circle"></i>&nbsp;Parar</button>&nbsp;
@@ -221,7 +221,7 @@ body, .mdtoast{
 	<div style="margin-top:5px; margin-bottom:10px;" class="col-sm-4 pt-1 pt-md-0">
       <div class="card shadow-sm">
         <div class="card-header border-primary text-primary"><i class="bi bi-window-dock"></i>&nbsp;Service2</div>
-        <div style="margin-left: auto;margin-right: auto;position:relative;text-align: center;" class="card-body">
+        <div class="card-body">
 		  <button type="button" onclick="executeCommand('systemctl start service2')" class="btn btn-outline-success mt-1"><i class="bi bi-play-circle"></i>&nbsp;Rodar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl stop service2')" class="btn btn-outline-danger mt-1"><i class="bi bi-stop-circle"></i>&nbsp;Parar</button>&nbsp;
         </div>
@@ -233,7 +233,7 @@ body, .mdtoast{
 			<a style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')">Service3</a>&nbsp;
 			<a class="emoji" style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')"></a>
 		</div>
-        <div style="margin-left: auto;margin-right: auto;position:relative;text-align: center;" class="card-body">
+        <div class="card-body">
           <button type="button" id="test-link-button" onclick="testAndOpenLink('https://#/')" class="btn btn-outline-secondary mt-1"><i class="bi bi-door-open"></i>&nbsp;Acessar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl start service3')" class="btn btn-outline-success mt-1"><i class="bi bi-play-circle"></i>&nbsp;Rodar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl stop service3')" class="btn btn-outline-danger mt-1"><i class="bi bi-stop-circle"></i>&nbsp;Parar</button>&nbsp;
@@ -246,7 +246,7 @@ body, .mdtoast{
 			<a style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')">Service4</a>&nbsp;
 			<a class="emoji" style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')"></a>
 		</div>
-        <div style="margin-left: auto;margin-right: auto;position:relative;text-align: center;" class="card-body">
+        <div class="card-body">
           <button type="button" id="test-link-button" onclick="testAndOpenLink('https://#/')" class="btn btn-outline-secondary mt-1"><i class="bi bi-door-open"></i>&nbsp;Acessar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl start service4')" class="btn btn-outline-success mt-1"><i class="bi bi-play-circle"></i>&nbsp;Rodar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl stop service4')" class="btn btn-outline-danger mt-1"><i class="bi bi-stop-circle"></i>&nbsp;Parar</button>&nbsp;
@@ -259,7 +259,7 @@ body, .mdtoast{
 			<a style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')">Service5</a>&nbsp;
 			<a class="emoji" style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')"></a>
 		</div>
-        <div style="margin-left: auto;margin-right: auto;position:relative;text-align: center;" class="card-body">
+        <div class="card-body">
           <button type="button" id="test-link-button" onclick="testAndOpenLink('https://#/')" class="btn btn-outline-secondary mt-1"><i class="bi bi-door-open"></i>&nbsp;Acessar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl start service5')" class="btn btn-outline-success mt-1"><i class="bi bi-play-circle"></i>&nbsp;Rodar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl stop service5')" class="btn btn-outline-danger mt-1"><i class="bi bi-stop-circle"></i>&nbsp;Parar</button>&nbsp;
@@ -272,7 +272,7 @@ body, .mdtoast{
 			<a style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')">Service6</a>&nbsp;
 			<a class="emoji" style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')"></a>
 		</div>
-        <div style="margin-left: auto;margin-right: auto;position:relative;text-align: center;" class="card-body">
+        <div class="card-body">
           <button type="button" id="test-link-button" onclick="testAndOpenLink('https://#/')" class="btn btn-outline-secondary mt-1"><i class="bi bi-door-open"></i>&nbsp;Acessar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl start service6')" class="btn btn-outline-success mt-1"><i class="bi bi-play-circle"></i>&nbsp;Rodar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl stop service6')" class="btn btn-outline-danger mt-1"><i class="bi bi-stop-circle"></i>&nbsp;Parar</button>&nbsp;
@@ -285,7 +285,7 @@ body, .mdtoast{
 			<a style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')">Service7</a>&nbsp;
 			<a class="emoji" style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')"></a>
 		</div>
-        <div style="margin-left: auto;margin-right: auto;position:relative;text-align: center;" class="card-body">
+        <div class="card-body">
           <button type="button" id="test-link-button" onclick="testAndOpenLink('https://#/')" class="btn btn-outline-secondary mt-1"><i class="bi bi-door-open"></i>&nbsp;Acessar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl start service7')" class="btn btn-outline-success mt-1"><i class="bi bi-play-circle"></i>&nbsp;Rodar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl stop service7')" class="btn btn-outline-danger mt-1"><i class="bi bi-stop-circle"></i>&nbsp;Parar</button>&nbsp;
@@ -295,7 +295,7 @@ body, .mdtoast{
     <div style="margin-top:5px; margin-bottom:10px;" class="col-sm-4 pt-1 pt-md-0">
       <div class="card shadow-sm">
         <div class="card-header border-primary text-primary"><i class="bi bi-nut"></i>&nbsp;Service8</div>
-        <div style="margin-left: auto;margin-right: auto;position:relative;text-align: center;" class="card-body">
+        <div class="card-body">
 		  <button type="button" onclick="executeCommand('systemctl reload service8')" class="btn btn-outline-success mt-1"><i class="bi bi-play-circle"></i>&nbsp;Recarregar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl stop service8')" class="btn btn-outline-danger mt-1"><i class="bi bi-stop-circle"></i>&nbsp;Parar</button>&nbsp;
         </div>
@@ -304,7 +304,7 @@ body, .mdtoast{
 	<div style="margin-top:5px; margin-bottom:10px;" class="col-sm-4 pt-1 pt-md-0">
       <div class="card shadow-sm">
         <div class="card-header border-primary text-primary"><i class="bi bi-gear-wide-connected"></i>&nbsp;Service9</div>
-        <div style="margin-left: auto;margin-right: auto;position:relative;text-align: center;" class="card-body">
+        <div class="card-body">
 		  <button type="button" onclick="executeCommand('systemctl start service9')" class="btn btn-outline-success mt-1"><i class="bi bi-play-circle"></i>&nbsp;Rodar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl stop service9')" class="btn btn-outline-danger mt-1"><i class="bi bi-stop-circle"></i>&nbsp;Parar</button>&nbsp;
         </div>
@@ -316,7 +316,7 @@ body, .mdtoast{
 			<a style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')">Service10</a>&nbsp;
 			<a class="emoji" style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')"></a>
 		</div>
-        <div style="margin-left: auto;margin-right: auto;position:relative;text-align: center;" class="card-body">
+        <div class="card-body">
           <button type="button" id="test-link-button" onclick="testAndOpenLink('https://#/')" class="btn btn-outline-secondary mt-1"><i class="bi bi-door-open"></i>&nbsp;Acessar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl start service10')" class="btn btn-outline-success mt-1"><i class="bi bi-play-circle"></i>&nbsp;Rodar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl stop service10')" class="btn btn-outline-danger mt-1"><i class="bi bi-stop-circle"></i>&nbsp;Parar</button>&nbsp;
@@ -329,7 +329,7 @@ body, .mdtoast{
 			<a style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')">Service11</a>&nbsp;
 			<a class="emoji" style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')"></a>
 		</div>
-        <div style="margin-left: auto;margin-right: auto;position:relative;text-align: center;" class="card-body">
+        <div class="card-body">
           <button type="button" id="test-link-button" onclick="testAndOpenLink('https://#/')" class="btn btn-outline-secondary mt-1"><i class="bi bi-door-open"></i>&nbsp;Acessar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl start service11')" class="btn btn-outline-success mt-1"><i class="bi bi-play-circle"></i>&nbsp;Rodar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl stop service11')" class="btn btn-outline-danger mt-1"><i class="bi bi-stop-circle"></i>&nbsp;Parar</button>&nbsp;
@@ -342,7 +342,7 @@ body, .mdtoast{
 			<a style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')">Service12</a>&nbsp;
 			<a class="emoji" style="font-size: 16px; cursor: pointer;" onclick="testAndChangeEmoji('https://#/')"></a>
 		</div>
-        <div style="margin-left: auto;margin-right: auto;position:relative;text-align: center;" class="card-body">
+        <div class="card-body">
           <button type="button" id="test-link-button" onclick="testAndOpenLink('https://#/')" class="btn btn-outline-secondary mt-1"><i class="bi bi-door-open"></i>&nbsp;Acessar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl start service12')" class="btn btn-outline-success mt-1"><i class="bi bi-play-circle"></i>&nbsp;Rodar</button>&nbsp;
 		  <button type="button" onclick="executeCommand('systemctl stop service12')" class="btn btn-outline-danger mt-1"><i class="bi bi-stop-circle"></i>&nbsp;Parar</button>&nbsp;
@@ -353,7 +353,7 @@ body, .mdtoast{
   <div class="row pt-3<?php if(!$auth){ echo " hidden"; } ?>">
     <div class="col-10 col-sm-8 col-md-4 pt-1 pt-md-0" style="margin-left: auto;margin-right: auto;">
       <div class="card text-center border-danger shadow-sm">
-        <div style="margin-left: auto;margin-right: auto;position:relative;text-align: center;" class="card-body">
+        <div class="card-body">
 		  <button type="button" data-toggle="modal" data-target="#confirmShutdownModal" class="btn btn-outline-light mt-1"><i class="bi bi-power"></i>&nbsp;Desligar</button>&nbsp;
 		  <button type="button" data-toggle="modal" data-target="#confirmRestartModal" class="btn btn-outline-info mt-1"><i class="bi bi-bootstrap-reboot"></i>&nbsp;Reiniciar</button>&nbsp;<br>
 		  <button type="button" onclick="logout()" class="btn btn-outline-warning mt-1"><i class="bi bi-arrow-right-square"></i>&nbsp;Sair</button>&nbsp;
