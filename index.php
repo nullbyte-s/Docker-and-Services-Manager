@@ -547,7 +547,7 @@ function executeShutdownCommand() {
     $.ajax({
         url: 'execute_command_power.php',
         type: 'POST',
-        data: { command: 'sudo shutdown -h' },
+        data: { command: "screen -dm bash -c 'sleep 5 && sudo shutdown -h now'" },
         success: function(response) {
             if (response.success) {
                 displayNotification('Desligamento iniciado com sucesso!');
@@ -566,7 +566,7 @@ function executeRestartCommand() {
     $.ajax({
         url: 'execute_command_power.php',
         type: 'POST',
-        data: { command: 'sudo shutdown -r' },
+        data: { command: "screen -dm bash -c 'sleep 5 && sudo shutdown -r now'" },
         success: function(response) {
             if (response.success) {
                 displayNotification('Reinício iniciado com sucesso!');
